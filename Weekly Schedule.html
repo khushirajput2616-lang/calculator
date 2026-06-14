@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Schedule</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 90%;
+            max-width: 800px;
+            text-align: left;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 12px;
+            font-size: 14px;
+        }
+        th {
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Weekly Schedule</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="width: 15%;">Time</th>
+                <th style="width: 20%;">Monday</th>
+                <th style="width: 15%;">Tuesday</th>
+                <th style="width: 15%;">Wednesday</th>
+                <th style="width: 15%;">Thursday</th>
+                <th style="width: 20%;">Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2"><b>Morning</b></td>
+                <td>Math</td>
+                <td rowspan="2" colspan="2">Science Lab</td>
+                <td>History</td>
+                <td>English</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>Geography</td>
+                <td>Sports</td>
+            </tr>
+
+            <tr>
+                <td><b>Afternoon</b></td>
+                <td colspan="5">Lunch Break</td>
+            </tr>
+
+            <tr>
+                <td><b>Evening</b></td>
+                <td>Computer Science</td>
+                <td>Art</td>
+                <td rowspan="2">Music</td>
+                <td>Drama</td>
+                <td>Free Period</td>
+            </tr>
+            <tr>
+                <td><b>Late Evening</b></td>
+                <td colspan="2">Self Study</td>
+                <td>Debate</td>
+                <td>Sports</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

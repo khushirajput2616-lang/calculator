@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keyboard UI</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:#f5f5f5;
+}
+
+.keyboard{
+    padding:15px;
+    background:#f3f3f3;
+    border:1px solid #ddd;
+    border-radius:10px;
+}
+
+.row{
+    display:flex;
+    gap:8px;
+    margin-bottom:8px;
+}
+
+.key{
+    width:65px;
+    height:45px;
+    border:none;
+    border-radius:8px;
+    background:#f8f8f8;
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+    font-size:16px;
+    cursor:pointer;
+}
+
+.wide{
+    width:100px;
+}
+
+.enter{
+    width:140px;
+}
+
+.space{
+    width:250px;
+}
+
+.windows{
+    width:85px;
+}
+</style>
+</head>
+<body>
+
+<div class="keyboard">
+
+    <div class="row">
+        <button class="key">~</button>
+        <button class="key">1</button>
+        <button class="key">2</button>
+        <button class="key">3</button>
+        <button class="key">4</button>
+        <button class="key">5</button>
+        <button class="key">6</button>
+        <button class="key">7</button>
+        <button class="key">8</button>
+        <button class="key">9</button>
+        <button class="key">0</button>
+        <button class="key wide">Delete</button>
+    </div>
+
+    <div class="row">
+        <button class="key wide">Tab</button>
+        <button class="key">Q</button>
+        <button class="key">W</button>
+        <button class="key">E</button>
+        <button class="key">R</button>
+        <button class="key">T</button>
+        <button class="key">Y</button>
+        <button class="key">U</button>
+        <button class="key">I</button>
+        <button class="key">O</button>
+        <button class="key">P</button>
+        <button class="key">\</button>
+    </div>
+
+    <div class="row">
+        <button class="key wide">Caps</button>
+        <button class="key">A</button>
+        <button class="key">S</button>
+        <button class="key">D</button>
+        <button class="key">F</button>
+        <button class="key">G</button>
+        <button class="key">H</button>
+        <button class="key">J</button>
+        <button class="key">K</button>
+        <button class="key">L</button>
+        <button class="key enter">Enter</button>
+    </div>
+
+    <div class="row">
+        <button class="key wide">Shift</button>
+        <button class="key">Z</button>
+        <button class="key">X</button>
+        <button class="key">C</button>
+        <button class="key">V</button>
+        <button class="key">B</button>
+        <button class="key">N</button>
+        <button class="key">M</button>
+        <button class="key">&lt;</button>
+        <button class="key">&gt;</button>
+        <button class="key enter">Shift</button>
+    </div>
+
+    <div class="row">
+        <button class="key windows">Windows</button>
+        <button class="key">Ctrl</button>
+        <button class="key">Option</button>
+        <button class="key">Alt</button>
+        <button class="key space">Space</button>
+        <button class="key">Alt</button>
+        <button class="key">Option</button>
+        <button class="key">&lt;</button>
+        <button class="key">&gt;</button>
+    </div>
+
+</div>
+
+</body>
+</html>
